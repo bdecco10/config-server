@@ -4,6 +4,6 @@ spring:
       consumer:
         topicKafkaUm: meu-topico
 minha:
-  chave: valor_da_chave
+  chave: meu_valor_local
 outra:
   chave: outro_valor_da_chave
