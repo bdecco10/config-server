@@ -23,4 +23,4 @@ spring:
         topicKafkaUm: meu-topico
         topicKafkaTest: meu-topico-teste
   refresh:
-    key: meu_valor_local
+    key: testando
