@@ -1,3 +1,7 @@
+# User/pass
+authentication:
+  username: centric_plm
+  password: centric_plm
 spring:
   data:
     mongodb:
