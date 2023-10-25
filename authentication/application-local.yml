@@ -1,10 +1,26 @@
 spring:
+  data:
+    mongodb:
+      host: mongo
+      port: 27017
+      database: mydatabase
+      username: admin
+      password: senha123
   kafka:
+    consumer:
+      bootstrap-servers: 172.18.0.4:9092
+      group-id: my-consumer-group
+      auto-offset-reset: earliest
+      max-poll-retries: 3
+      properties:
+        spring.json.trusted.packages: "expertostech.autenticacao.jwt.kafka.dto"
+    producer:
+      bootstrap-servers: 172.18.0.4:9092
+      properties:
+        spring.json.trusted.packages: "expertostech.autenticacao.jwt.kafka.dto"
     topic:
       consumer:
         topicKafkaUm: meu-topico
         topicKafkaTest: meu-topico-teste
-minha:
-  chave: meu_valor_local
-outra:
-  chave: outro_valor_da_chave
+  refresh:
+    key: meu_valor_local
