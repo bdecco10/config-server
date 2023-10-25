@@ -1,3 +1,8 @@
+spring:
+  kafka:
+    topic:
+      consumer:
+        topicKafkaUm: meu-topico
 minha:
   chave: valor_da_chave
 outra:
