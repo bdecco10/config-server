@@ -3,6 +3,7 @@ spring:
     topic:
       consumer:
         topicKafkaUm: meu-topico
+        topicKafkaTest: meu-topico-teste
 minha:
   chave: meu_valor_local
 outra:
