@@ -27,4 +27,4 @@ spring:
         topicKafkaUm: meu-topico
         topicKafkaTest: meu-topico-teste
   refresh:
-    key: testando
+    key: mudando o valor
